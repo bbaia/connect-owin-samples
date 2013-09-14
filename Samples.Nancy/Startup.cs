@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-
 using Owin;
 using Nancy;
-using Nancy.Owin;
 
 namespace Samples.Nancy
 {
@@ -14,7 +9,7 @@ namespace Samples.Nancy
         {
             string rootpath = app.Properties["node.rootpath"] as string;
 
-            app.UseNancy(new NodeBootstrapper(rootpath));
+            app.UseNancy(options => options.Bootstrapper = new NodeBootstrapper(rootpath));
         }
     }
 
