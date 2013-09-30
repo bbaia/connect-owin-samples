@@ -22,7 +22,7 @@ Open http://localhost:3000/
 
 ## [ASP.NET SignalR](http://www.asp.net/signalr) Sample
 
-Only supports `longPolling` tranport
+`webSocket` transport not supported (requires [connect-owin](https://github.com/bbaia/connect-owin/) to support [OWIN WebSocket extension](http://owin.org/extensions/owin-WebSocket-Extension-v0.4.0.htm)).
 
 	$ cd Samples.SignalR
 	$ msbuild Samples.SignalR.csproj
