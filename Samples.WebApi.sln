@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E526A3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".node", ".node", "{DCCEC959-C45D-436F-AB69-0204FF8D83FD}"
 	ProjectSection(SolutionItems) = preProject
+		Samples.WebApi\Gruntfile.js = Samples.WebApi\Gruntfile.js
 		Samples.WebApi\package.json = Samples.WebApi\package.json
 		Samples.WebApi\server.js = Samples.WebApi\server.js
 	EndProjectSection

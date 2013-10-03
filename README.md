@@ -5,11 +5,8 @@ Host your OWIN components on node.js using [connect-owin](https://github.com/bba
 ## [ASP.NET WebApi](http://www.asp.net/web-api) Sample
 
 	$ cd Samples.WebApi
-	$ msbuild Samples.WebApi.csproj
-	$ npm install
-	$ node server.js
 
-Open http://localhost:3000/Api/Hello/World
+See [ReadMe](https://github.com/bbaia/connect-owin-samples/tree/master/Samples.WebApi)
 
 ## [Nancy](http://nancyfx.org/) Sample
 
