@@ -11,7 +11,8 @@ namespace Samples.WebApi
     {
         public static void Configuration(IAppBuilder app)
         {
-            // Issue since v5.0.0-rc1? http://katanaproject.codeplex.com/workitem/81
+            // This is required when not using Microsoft.Owin's AppBuilder
+            // http://katanaproject.codeplex.com/workitem/81
             Microsoft.Owin.Infrastructure.SignatureConversions.AddConversions(app);
 
             HttpConfiguration config = new HttpConfiguration();
