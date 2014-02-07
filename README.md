@@ -28,3 +28,12 @@ Open http://localhost:3000/
 
 Open http://localhost:3000/index.html
 
+## [Simple.Web](https://github.com/markrendle/Simple.Web) with [Fix](https://github.com/FixProject/Fix) Sample
+
+	$ cd Samples.Fix_SimpleWeb
+	$ msbuild Samples.Fix_SimpleWeb.csproj
+	$ npm install
+	$ node server.js
+
+Open http://localhost:3000/
+
