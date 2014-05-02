@@ -29,7 +29,7 @@
                     middleware: function (connect) {
                         return [
                             require('connect-livereload')(),
-                            require('connect-owin')(__dirname + '\\bin\\debug\\Samples.WebApi.dll'),
+                            require('connect-owin')(__dirname + '/bin/Debug/Samples.WebApi.dll'),
                             connect.static(require('path').resolve('Site'))
                         ];
                     }

@@ -9,7 +9,7 @@ app.all('/node', function (req, res) {
 });
 
 app.all('/', owin({
-    assemblyFile: __dirname + '\\bin\\Debug\\Samples.Fix_SimpleWeb.dll',
+    assemblyFile: __dirname + '/bin/Debug/Samples.Fix_SimpleWeb.dll',
     typeName: 'Samples.Fix_SimpleWeb.FixConfig',
     methodName: 'Invoke'
 }));
