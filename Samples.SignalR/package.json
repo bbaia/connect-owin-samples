@@ -3,7 +3,7 @@
         "connect-owin": "~0.1.0"
     },
     "devDependencies": {
-        "connect": "~2.9.0",
-        "express": "~3.4.0"
+        "connect": "~2.14.5",
+        "express": "~4.1.1"
     }
 }
