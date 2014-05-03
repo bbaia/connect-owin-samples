@@ -2,7 +2,11 @@
 
 Build the sources:
 
-	$ msbuild Samples.WebApi.csproj
+	$ msbuild Samples.WebApi.csproj   (.NET Framework)
+	$ xbuild Samples.WebApi.csproj    (mono)
+
+Retrieve node.js packages:
+
 	$ npm install
 
 ## Using [Grunt](http://gruntjs.com/)
@@ -21,5 +25,5 @@ This is useful while developing.
 
 	$ node server.js
 
-Then open http://localhost:3000/index.html
+Open http://localhost:3000/index.html
 
