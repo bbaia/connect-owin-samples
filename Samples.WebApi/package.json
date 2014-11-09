@@ -1,6 +1,6 @@
 ﻿{
     "dependencies": {
-        "connect-owin": "~0.2.0"
+        "connect-owin": "~0.3.0"
     },
     "devDependencies": {
         "connect": "~2.14.5",
